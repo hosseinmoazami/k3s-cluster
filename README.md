@@ -29,6 +29,8 @@ This provider and the following module are required to implement the virtualizat
 - dmacvicar/libvirt
 - MonolithProjects/vm/libvirt
 
+> Before run the terraform check the variables.tf and change the static variable base on your demand.
+
 To run terraform do:
 
 ```
@@ -41,7 +43,7 @@ terraform apply --auto-approve
 ## Install k8s cluster on VMs
 
 ```
-cd k8s-cluster
+cd k3s
 ansible-playbook playbook/site.yml -i inventory.yml
 ```
 

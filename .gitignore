@@ -12,3 +12,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 .vscode
+vm/.terraform.lock.hcl
+vm/storage
