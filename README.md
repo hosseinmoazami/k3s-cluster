@@ -43,7 +43,7 @@ terraform apply --auto-approve
 ## Install k8s cluster on VMs
 
 ```
-cd k8s-cluster
+cd k3s
 ansible-playbook playbook/site.yml -i inventory.yml
 ```
 
